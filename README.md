@@ -1,2 +1,5 @@
 # LunarLua
-A separate version of LunaLua made for enhancing the SMBX2 gameplay
+This is a separate project from LunaLua, specifically to enhance gameplay and rework for a separated fork of the SMBX2 engine.
+
+## How to compile
+(Compiling information TBD)
