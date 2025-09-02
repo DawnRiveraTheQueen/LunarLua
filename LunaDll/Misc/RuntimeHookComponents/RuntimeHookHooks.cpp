@@ -250,8 +250,6 @@ extern int __stdcall LoadIntro()
             }
         }
     }
-
-
 #pragma warning(suppress: 28159)
     return GetTickCount();
 }
@@ -1624,7 +1622,7 @@ void __stdcall runtimeHookGameMenu()
     if(!gEpisodeLoadedOnBoot)
     {
         GameAutostart autostarter;
-        if(!gStartupSettings.waitForIPC && !TestModeIsEnabled())
+        if(!gStartupSettings.waitForIPC && !TestModeIsEnabled() && !TestModeIsLoadPending())
         {
             std::string autostartFile = WStr2Str(getLatestConfigFile(L"autostart.ini"));
 

@@ -327,6 +327,7 @@
     <ClInclude Include="UserSaves\UserSaving.h" />
     <ClInclude Include="SMBXInternal\WorldLevel.h" />
     <ClInclude Include="version.h" />
+    <ClInclude Include="Episode\EpisodeMain.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\LunaLoader\LunaLoaderPatch.cpp" />
@@ -566,6 +567,7 @@
     <ClCompile Include="UserSaves\UserSaving.cpp" />
     <ClCompile Include="SMBXInternal\WorldLevel.cpp" />
     <ClCompile Include="VersionString.cpp" />
+    <ClInclude Include="Episode\EpisodeMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Misc\scrappedcode.txt" />

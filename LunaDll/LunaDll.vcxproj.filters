@@ -144,6 +144,9 @@
     <Filter Include="SMBXInternal\Ports">
       <UniqueIdentifier>{35e43447-c308-4ec8-88b4-4a39a45a3489}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Episode">
+      <UniqueIdentifier>{3f818452-6107-4098-9f76-bc9e25f681ec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LuaMain\LuaHelper.h">
@@ -747,6 +750,12 @@
     </ClInclude>
     <ClInclude Include="FileManager\SaveFile.h">
       <Filter>FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\EpisodeMain.h">
+      <Filter>Episode</Filter>
+    </ClInclude>
+    <ClInclude Include="Episode\EpisodeMain.cpp">
+      <Filter>Episode</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -1360,9 +1369,6 @@
     </ClCompile>
     <ClCompile Include="LuaMain\LunaPathValidator.cpp">
       <Filter>LuaMain</Filter>
-    </ClCompile>
-    <ClCompile Include="libs\luabind-deboostified\src$filename">
-      <Filter>libs\luabind-deboostified</Filter>
     </ClCompile>
     <ClCompile Include="libs\luabind-deboostified\src$filename">
       <Filter>libs\luabind-deboostified</Filter>
